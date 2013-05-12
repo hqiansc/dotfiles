@@ -1,0 +1,1 @@
+/Users/bank/.zshrc
