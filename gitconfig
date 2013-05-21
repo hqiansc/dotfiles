@@ -10,5 +10,6 @@
 	st = status
 	cm = commit
 	df = diff
+	st = status
 [push]
 	default = simple
