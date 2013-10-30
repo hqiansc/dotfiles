@@ -51,6 +51,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/Dropbox/Columbia/W4118/android-sdk-macosx/tools # Add Android sdk for OS class
 PATH=$PATH:$HOME/Dropbox/Columbia/W4118/android-ndk-r8d/toolchains/x86-4.4.3/prebuilt/darwin-x86/bin
 
+export X10_HOME=/Applications/x10dt/plugins/x10.dist.macosx.x86.fragment_2.4.0.201309271722
+export X10_NTHREADS=8
+
 # Alias
 alias emx=/Applications/Emacs.app/Contents/MacOS/Emacs 
 alias ll=ls -l
