@@ -34,7 +34,7 @@ ZSH_THEME="kennethreitz"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source /usr/local/Cellar/autoenv/0.1.0/activate.sh
+#source /usr/local/Cellar/autoenv/0.1.0/activate.sh
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/python:/usr/texbin:/usr/local/mysql/bin:~/bin:$PATH
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
@@ -57,3 +57,4 @@ export X10_NTHREADS=8
 # Alias
 alias emx=/Applications/Emacs.app/Contents/MacOS/Emacs 
 alias ll=ls -l
+alias emc=emacsclient
