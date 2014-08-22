@@ -37,24 +37,24 @@ source $ZSH/oh-my-zsh.sh
 #source /usr/local/Cellar/autoenv/0.1.0/activate.sh
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/python:/usr/texbin:/usr/local/mysql/bin:~/bin:$PATH
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/opt/local/bin:/opt/local/sbin:$HOME/Documents/personal/snippets:$PATH
+export PATH=$HOME/Documents/hulu/kraken/binaries:$HOME/bin:$PATH
 
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
-export WORKON_HOME=~/Dropbox/Envs
-export CU=~/Dropbox/Columbia/
+export HULU=$HOME/Documents/hulu
+export HANG=$HOME/Documents/personal
+export ORG=$HOME/Dropbox/Org
 export CROSS_COMPILE=i686-linux-android-
 if [ -d "$HOME/bin" ] ; then
     export PATH="$HOME/bin:$PATH"
 fi
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/Dropbox/Columbia/W4118/android-sdk-macosx/tools # Add Android sdk for OS class
-PATH=$PATH:$HOME/Dropbox/Columbia/W4118/android-ndk-r8d/toolchains/x86-4.4.3/prebuilt/darwin-x86/bin
-
 export X10_HOME=/Applications/x10dt/plugins/x10.dist.macosx.x86.fragment_2.4.0.201309271722
 export X10_NTHREADS=8
 
 # Alias
-alias emx=/Applications/Emacs.app/Contents/MacOS/Emacs 
+alias emx=/Applications/Emacs.app/Contents/MacOS/Emacs
 alias ll=ls -l
-alias emc=emacsclient
+alias em='emacsclient -nw'
+alias i='ipython'
+alias krakend="ssh root@kraken-director"

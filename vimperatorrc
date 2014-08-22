@@ -3,7 +3,7 @@ noremap k 3k
 map h gT
 map l gt
 
-set gui=nonavigation
+set gui=none, tabs, addons
 
 autocmd LocationChange .*                             js modes.passAllKeys = false
 autocmd LocationChange mail\\.google\\.com            js modes.passAllKeys = true

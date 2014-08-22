@@ -1,6 +1,8 @@
 [user]
-	name = Hang Qian
+	name = =
 	email = hangqian90@gmail.com
+	name = =
+	email = =
 [core]
     editor = emacs
 	excludesfile = /Users/bank/.gitignore_global
@@ -14,11 +16,10 @@
 	st = status
 [push]
 	default = simple
-[credential]
-	helper = osxkeychain
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+[sendemail]
+	from = Hang Qian <hang.qian@hulu.com>
+	smtpserver = smtp.exg5.exghost.com
+	smtpuser = hang.qian49012
+	smtpencryption = tls
+	smtpserverport = 587
+    smtpsslcertpath = ""
