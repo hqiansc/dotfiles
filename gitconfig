@@ -1,10 +1,8 @@
 [user]
-	name = =
+	name = Hang Qian
 	email = hangqian90@gmail.com
-	name = =
-	email = =
 [core]
-    editor = emacs
+	editor = emacs
 	excludesfile = /Users/bank/.gitignore_global
 [alias]
 	lg = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
@@ -14,12 +12,13 @@
 	cm = commit
 	df = diff
 	st = status
+    aup = add -u -p
 [push]
 	default = simple
 [sendemail]
 	from = Hang Qian <hang.qian@hulu.com>
-	smtpserver = smtp.exg5.exghost.com
-	smtpuser = hang.qian49012
+	smtpserver = smtp.office365.com
+	smtpuser = hang.qian@hulu.com
 	smtpencryption = tls
 	smtpserverport = 587
-    smtpsslcertpath = ""
+	smtpsslcertpath = ""
