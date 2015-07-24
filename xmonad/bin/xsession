@@ -19,10 +19,11 @@ gnome-terminal &
 gnome-terminal &
 
 # Start a browser
-google-chrome &
+firefox &
 
 # Start emacs
 emacs &
+emacs --daemon
 
 # Start screensaver
 # Kill gnome-screensaver if started by default

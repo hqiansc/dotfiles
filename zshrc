@@ -65,5 +65,5 @@ alias open=xdg-open
 alias wcl='wc -l'
 # commands
 
-export EDITOR="emacs -nw"
+export EDITOR="emacsclient -nw"
 eval "$(direnv hook zsh)"
