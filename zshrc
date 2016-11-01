@@ -66,4 +66,3 @@ alias wcl='wc -l'
 # commands
 
 export EDITOR="emacsclient -c"
-eval "$(direnv hook zsh)"
