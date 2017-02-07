@@ -36,33 +36,26 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 #source /usr/local/Cellar/autoenv/0.1.0/activate.sh
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/python:/usr/texbin:/usr/local/mysql/bin:~/bin:$PATH
-export PATH=/opt/local/bin:/opt/local/sbin:$HOME/Documents/personal/snippets:$PATH
-export PATH=$HOME/Documents/hulu/kraken/binaries:$HOME/bin:$PATH
-export PATH=$PATH:~/.cabal/bin:~/.xmonad/bin
+
+# Emacs on mac
+export PATH=/Applications/Emacs.app/Contents/MacOS/bin:$PATH
+alias emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
+
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/python:/usr/texbin:/usr/local/mysql/bin:~/bin
 export PATH=$PATH:/usr/local/go/bin
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
-export HULU=$HOME/Documents/hulu
+export SNAP=$HOME/Documents/Snap
 export HANG=$HOME/Documents/hang
-export PATH=$PATH:$HULU/samourai
-
-# Phabricator
-export PATH=$PATH:/opt/arcanist/bin/
 
 if [ -d "$HOME/bin" ] ; then
     export PATH="$HOME/bin:$PATH"
 fi
 
 # Alias
-alias emx=/Applications/Emacs.app/Contents/MacOS/Emacs
 alias ll=ls -l
 alias em='emacsclient -nw'
 alias enw='emacs -nw'
 alias i='ipython'
-alias krakend="ssh root@kraken-director"
-alias ipmi="$HOME/bin/IPMI/IPMIView20"
-alias open=xdg-open
-alias wcl='wc -l'
 # commands
 
 export EDITOR="emacsclient -c"

@@ -1,6 +1,6 @@
 [user]
 	name = Hang Qian
-	email = hangqian90@gmail.com
+	email = hqian@snap.com
 [core]
 	editor = emacsclient -c
 	excludesfile = /Users/bank/.gitignore_global
@@ -15,10 +15,3 @@
     aup = add -u -p
 [push]
 	default = simple
-[sendemail]
-	from = Hang Qian <hang.qian@hulu.com>
-	smtpserver = smtp.office365.com
-	smtpuser = hang.qian@hulu.com
-	smtpencryption = tls
-	smtpserverport = 587
-	smtpsslcertpath = ""
