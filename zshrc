@@ -43,6 +43,7 @@ alias emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
 
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/python:/usr/texbin:/usr/local/mysql/bin:~/bin
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/maven/bin
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
 export SNAP=$HOME/Documents/Snap
 export HANG=$HOME/Documents/hang
